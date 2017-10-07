@@ -6,14 +6,14 @@ The candidate statistic project contains the code to extract the statistics abou
 ### CandidatesManager
 The CandidatesManager solution contains a set of projects that represent the backend of the application. They are
 
-#### CandidatesManager
-Contains the class library project
+#### CandidatesManager.Library
+Project containing the core classes and logic for the statistic computation
 
 #### CandidatesManager.Tests
-Unit tests for the CandidatesManager classes
+Project containing the unit tests for the CandidateManager.Library classes
 
-#### CandidatesStatisticManager.WebAPI
-Web API project exposing the results of the computed statistics
+#### CandidatesManager.WebAPI
+Web API project exposing the results of the computed statistics, in order to be consumed by a REST client
 
 ## CandidateStatisticFrontend
 Angular 4 project, containing a basic frontend in order to show the result of the statistic.
