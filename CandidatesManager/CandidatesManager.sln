@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidatesManager", "CandidatesManager\CandidatesManager.csproj", "{9CD44B5A-FC35-4DF3-8CAF-5B36D2F31387}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidatesManager.Library", "CandidatesManager.Library\CandidatesManager.Library.csproj", "{9CD44B5A-FC35-4DF3-8CAF-5B36D2F31387}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidatesManager.Tests", "CandidatesManager.Tests\CandidatesManager.Tests.csproj", "{114C1980-8F46-476F-B568-A2FE712C1499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateStatisticManager.WebAPI", "CandidateStatisticManager.WebAPI\CandidateStatisticManager.WebAPI.csproj", "{CBA7AE6E-B14C-4323-937A-75BCFA4CF313}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidatesManager.WebAPI", "CandidatesManager.WebAPI\CandidatesManager.WebAPI.csproj", "{CBA7AE6E-B14C-4323-937A-75BCFA4CF313}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

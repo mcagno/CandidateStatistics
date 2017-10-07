@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using CandidatesManager.Library;
 using NSubstitute;
 using NUnit.Framework;
 

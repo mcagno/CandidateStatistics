@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CandidatesManager\CandidatesManager.csproj">
+    <ProjectReference Include="..\CandidatesManager.Library\CandidatesManager.Library.csproj">
       <Project>{9cd44b5a-fc35-4df3-8caf-5b36d2f31387}</Project>
-      <Name>CandidatesManager</Name>
+      <Name>CandidatesManager.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

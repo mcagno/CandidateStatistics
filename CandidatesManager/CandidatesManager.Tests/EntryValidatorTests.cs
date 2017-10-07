@@ -1,3 +1,4 @@
+using CandidatesManager.Library;
 using NUnit.Framework;
 
 namespace CandidatesManager.Tests
