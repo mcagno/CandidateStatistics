@@ -8,11 +8,13 @@ import { AppService } from './app.service';
   providers: [AppService]
 })
 export class AppComponent {
-  title = 'Candidate statistic';
+  title = 'Candidate statistics';
 
   statisticResult = {};
 
   constructor(private service : AppService) {
-  	service.getStatistic().subscribe((res:Response) => this.statisticResult = res.json());
+  	service
+  	 .getStatistic()
+  	 .subscribe((res:Response) => this.statisticResult = res.json());
   }
 }

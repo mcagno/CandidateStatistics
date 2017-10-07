@@ -7,9 +7,11 @@ export class AppService {
 
   constructor(private http : Http) { }
 
+  baseServerUrl = 'http://localhost:51317/';
+
   getStatistic() : Observable<any> {
   	return this.http
-  			.get('http://localhost:51317/api/CandidateStatistic')
+  			.get(this.baseServerUrl + '/api/CandidateStatistic')
   }
 
 }
