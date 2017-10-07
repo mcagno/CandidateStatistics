@@ -1,8 +1,6 @@
 ﻿using System.Web.Http;
 using System.Web.Http.Cors;
-using CandidatesManager;
 using CandidatesManager.Library;
-using CandidatesManager.WebAPI;
 using CandidatesManager.WebAPI.Controllers;
 using Microsoft.Practices.Unity;
 
